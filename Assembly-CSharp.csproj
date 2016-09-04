@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2903E337-539D-86A9-7064-92F8F65A600C}</ProjectGuid>
+    <ProjectGuid>{E8B8456C-A07A-9852-7500-29077039925A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -47,10 +47,15 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Behavior\AbstractBehavior.cs" />
      <Compile Include="Assets\Scripts\Behavior\FaceDirection.cs" />
+     <Compile Include="Assets\Scripts\Behavior\GoombaWalk.cs" />
+     <Compile Include="Assets\Scripts\Behavior\Jump.cs" />
      <Compile Include="Assets\Scripts\Behavior\SimpleMovement.cs" />
      <Compile Include="Assets\Scripts\Behavior\Walk.cs" />
+     <Compile Include="Assets\Scripts\Collision\Collectable.cs" />
+     <Compile Include="Assets\Scripts\Collision\CollisionState.cs" />
      <Compile Include="Assets\Scripts\Input\InputManager.cs" />
      <Compile Include="Assets\Scripts\Input\InputState.cs" />
+     <Compile Include="Assets\Scripts\Managers\CameraController.cs" />
      <Compile Include="Assets\Scripts\Managers\PlayerManager.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
